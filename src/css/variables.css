@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 :root {
     --text-color: hsl(227, 10%, 46%);
     --background-color: hsl(185, 75%, 39%);
     --card-color: hsl(0, 0%, 59%);
+    --font-card: 'Kumbh Sans', sans-serif;
 }
 
