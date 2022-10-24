@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-* {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: hsl(227, 10%, 46%);
-    margin: 0;
-    box-sizing: border-box;
-}
+/* font-family: 'Kumbh Sans', sans-serif; */
+
 
 body {
-    background-color: hsl(185, 75%, 46%);
+    background-color: var(--background-color);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -43,10 +39,9 @@ body {
     margin: 1em;
 }
 
-.dados-conta {
+.dados-conta .info {
     display: flex;
     width: 100%;
-    border-top: 1px solid;
     /* justify-content: space-evenly; */
     flex-grow: 1;
     margin-top: 1em;
